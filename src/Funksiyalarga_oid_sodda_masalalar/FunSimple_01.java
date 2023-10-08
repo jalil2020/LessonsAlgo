@@ -9,7 +9,7 @@ public class FunSimple_01 {
     }
 
     static void PowerA3(int a, int b, int c, double d, double e) {
-        a = a * a * a;
+        a = a * a * a; //bu nima
         b = b * b * b;
         c = c * c * c;
         d = d * d * d;
