@@ -4,16 +4,15 @@ package Funksiyalarga_oid_sodda_masalalar;/*
 
 public class FunSimple_20 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        TriangleP(3,4);
+        TriangleP(3, 4);
     }
 
-    static void TriangleP (int a,int b){
+    static void TriangleP(int a, int b) {
 
-        int c=(a*a+b*b);
+        double c = Math.sqrt(a * a + b * b);
 
-
-        System.out.println((Math.sqrt(c)+a+b));
+        System.out.println((c + a + b));
     }
 }

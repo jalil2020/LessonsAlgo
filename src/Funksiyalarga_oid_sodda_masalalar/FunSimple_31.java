@@ -6,32 +6,44 @@ import static java.lang.StrictMath.pow;
 
 public class FunSimple_31 {
     public static void main(String[] args) {
-        IsPalindrom(121);
+        System.out.println(IsPalindrom(12558781));
     }
-    static void IsPalindrom(int k){
-        int f=0,d=0, soni=0,y=k,l=y,s=0;
-        int m,b=0;
 
-        while (k>0){
-            k/=10;
+    public static boolean IsPalindrom(int x) {
+        int k = 0;
+        int temp = x;
+        while (x > 0) {
+            k = k * 10 + x % 10;
+            x = x / 10;
+        }
+        return k == temp;
+    }
+
+
+   /* static void IsPalindrom(int k) {
+        int f = 0, d = 0, soni = 0, y = k, l = y, s = 0;
+        int m, b = 0;
+
+        while (k > 0) {
+            k /= 10;
             s++;
         }
-        int q=s;
-                while (s>0){
-                s--;
-                m = y%10;
-                y/=10;
-                b+=m*(pow(10,s));
-            }
-            while(l>0){
-                f = b%10;
-                b /=10;
-                d = l%10;
-                l /= 10;
-                if (f==d) soni++;
-            }
-            if (soni==q) System.out.println("Kiritilgan son Palindrom son");
-            else System.out.println("Palindrom son emas");
+        int q = s;
+        while (s > 0) {
+            s--;
+            m = y % 10;
+            y /= 10;
+            b += m * (pow(10, s));
+        }
+        while (l > 0) {
+            f = b % 10;
+            b /= 10;
+            d = l % 10;
+            l /= 10;
+            if (f == d) soni++;
+        }
+        if (soni == q) System.out.println("Kiritilgan son Palindrom son");
+        else System.out.println("Palindrom son emas");
 
-    }
+    }*/
 }

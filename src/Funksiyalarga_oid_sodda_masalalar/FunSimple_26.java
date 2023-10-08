@@ -4,16 +4,17 @@ package Funksiyalarga_oid_sodda_masalalar;/*
 
 public class FunSimple_26 {
     public static void main(String[] args) {
-        IsPower5(25);
+        IsPower5(17);
     }
+
     static void IsPower5(int k) {
-          int p = 1;
+        int p = 1;
         while (k > p) {
 
             p *= 5;
 
         }
-        if (k==p) System.out.println(true);
+        if (k == p) System.out.println(true);
         else System.out.println(false);
 
     }

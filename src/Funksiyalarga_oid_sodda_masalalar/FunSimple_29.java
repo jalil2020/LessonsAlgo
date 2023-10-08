@@ -11,7 +11,6 @@ public class FunSimple_29 {
         while ( n>0){
             n /=10;
             p++;
-
         }
         System.out.println(p);
     }

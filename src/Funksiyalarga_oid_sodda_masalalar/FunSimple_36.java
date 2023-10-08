@@ -9,7 +9,7 @@ public class FunSimple_36 {
 
     static void FibN (int n){
 
-        int f1 =0, f2=1, f3=0;
+        int f1 =1, f2=2, f3=3;
         for(int i = 3; i<=n; i++ ){
             f3=f1+f2;
             int y=f2;

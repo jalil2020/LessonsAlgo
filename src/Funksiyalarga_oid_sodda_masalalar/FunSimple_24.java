@@ -4,14 +4,11 @@ package Funksiyalarga_oid_sodda_masalalar;/*
 
 public class FunSimple_24 {
     public static void main(String[] args) {
-        Even(6);
+        System.out.println(Even(6));
     }
 
-    static void Even(int k){
-        boolean v;
-        if (k%2==0) v= true;
-        else v=false;
-        System.out.println(v);
+    static boolean Even(int k) {
+        return k % 2 == 0;
     }
 
 }

@@ -4,22 +4,19 @@ package Funksiyalarga_oid_sodda_masalalar;/*
 
 public class FunSimple_15 {
     public static void main(String[] args) {
-        ShiftLeft3(3,1,2);
+        ShiftLeft3(3, 1, 2);
     }
-    static void ShiftLeft3(int a, int b, int c){
-        int d=a+b+c; // 1 2 3  6
 
-        a=d-(c+a); //20  b 2
+    static void ShiftLeft3(int a, int b, int c) {
+        int d = a + b + c; // 1 2 3  6
 
-        c=d-(a+c); //5   c 1
+        a = d - (c + a); //20  b 2
 
-        b=d-(c+b); //15  b 3
+        c = d - (a + c); //5   c 1
 
+        b = d - (c + b); //15  b 3
 
-
-
-
-        System.out.println(a+"  "+b + "  "+c);
+        System.out.println(a + "  " + b + "  " + c);
     }
-    }
+}
 

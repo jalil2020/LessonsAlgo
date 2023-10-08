@@ -6,11 +6,10 @@ import static java.lang.Math.sqrt;
 
 public class FunSimple_25 {
     public static void main(String[] args) {
-        IsSquare(24);
+        System.out.println(IsSquare(25));
     }
-    static void IsSquare(int k){
-         double a= sqrt(k);
-        if ( a*a == k) System.out.println(true);
-            else System.out.println(false);
+
+    static boolean IsSquare(int k) {
+        return k == sqrt(k) * sqrt(k);
     }
 }

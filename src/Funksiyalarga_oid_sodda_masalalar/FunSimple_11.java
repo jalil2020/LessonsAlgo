@@ -4,14 +4,15 @@ package Funksiyalarga_oid_sodda_masalalar;/*
 
 public class FunSimple_11 {
     public static void main(String[] args) {
- Minmax(60,50);
+        Minmax(60, 50);
     }
-    static void Minmax(int x,int y){
-        if (x>y){
+
+    static void Minmax(int x, int y) {
+        if (x > y) {
             int v = x;
-                x = y;
-                y = v;
+            x = y;
+            y = v;
         }
-        System.out.println(" x = "+x+"   y = "+y);
+        System.out.println(" x = " + x + "   y = " + y);
     }
 }

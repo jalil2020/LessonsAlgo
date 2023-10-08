@@ -6,7 +6,8 @@ import static java.lang.StrictMath.pow;
 
 public class FunSimple_30 {
     public static void main(String[] args) {
-        DigitN(174561,6);
+        DigitN(123456789,9);
+        int a = 213213123;
     }
     static void DigitN(int k, int n){
         int y=k;

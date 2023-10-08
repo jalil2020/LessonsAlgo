@@ -6,6 +6,8 @@ public class FunSimple_22 {
     public static void main(String[] args){
 
         Cacl(5,4,1);
+        Cacl(5,4,2);
+        Cacl(5,4,4);
     }
 
     static void Cacl (int a,int b,int Op){

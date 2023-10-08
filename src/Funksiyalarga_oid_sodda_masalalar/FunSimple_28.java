@@ -4,7 +4,7 @@ package Funksiyalarga_oid_sodda_masalalar;/*
 
 public class FunSimple_28 {
     public static void main(String[] args) {
-        IsPrime(6);
+        IsPrime(71);
     }
     static void IsPrime(int n){
         int p = 0;

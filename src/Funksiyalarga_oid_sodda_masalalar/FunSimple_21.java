@@ -4,7 +4,7 @@ package Funksiyalarga_oid_sodda_masalalar;/*
 
 public class FunSimple_21 {
     public static void main(String[] args) {
-         SumRange(4,8);
+        SumRange(4, 8);
     }
 
     static void SumRange(int a, int b) {
@@ -12,10 +12,7 @@ public class FunSimple_21 {
         while (b >= a) {
             s += a;
             a++;
-
-
         }
-
         System.out.println(s);
     }
 }
