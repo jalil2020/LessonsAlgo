@@ -1,3 +1,5 @@
+package letcode
+
 import java.lang.StringBuilder
 
 fun main() {

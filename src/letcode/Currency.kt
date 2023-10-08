@@ -1,3 +1,5 @@
+package letcode
+
 class Currency {
 }
 

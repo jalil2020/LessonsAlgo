@@ -1,3 +1,5 @@
+package letcode;
+
 public class FindMedianSortedArrays {
     public static void main(String[] args) {
         int[] num1 = {1, 2};

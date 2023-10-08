@@ -1,3 +1,5 @@
+package letcode;
+
 import java.util.Scanner;
 
 public class MaxMIn {
